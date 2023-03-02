@@ -1,0 +1,16 @@
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\bin\Release\net6.0-windows\RandomizeTxt.exe
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\bin\Release\net6.0-windows\RandomizeTxt.deps.json
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\bin\Release\net6.0-windows\RandomizeTxt.runtimeconfig.json
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\bin\Release\net6.0-windows\RandomizeTxt.dll
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\bin\Release\net6.0-windows\RandomizeTxt.pdb
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.csproj.AssemblyReference.cache
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.csproj.ResolveComReference.cache
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.AssemblyInfoInputs.cache
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.AssemblyInfo.cs
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.csproj.CoreCompileInputs.cache
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.dll
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\refint\RandomizeTxt.dll
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.pdb
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\RandomizeTxt.genruntimeconfig.cache
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Release\net6.0-windows\ref\RandomizeTxt.dll

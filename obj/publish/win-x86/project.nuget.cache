@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "x6HmS2FmBGfHv23ShsTBYcVh+6UKaq/qQhpx5QVcr2Nw672u0kcdtUB1fI//2U85XE8tGHYXrWo3hZvVD+t0vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abullis\\OneDrive - jmesales.com\\Documents\\csharp\\RandomizeTxt\\RandomizeTxt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abullis\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.14\\microsoft.netcore.app.runtime.win-x86.6.0.14.nupkg.sha512",
+    "C:\\Users\\abullis\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.14\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.14.nupkg.sha512",
+    "C:\\Users\\abullis\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.14\\microsoft.aspnetcore.app.runtime.win-x86.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

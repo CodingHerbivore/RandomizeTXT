@@ -1,0 +1,7 @@
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt.pdb
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\D3DCompiler_47_cor3.dll
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\PenImc_cor3.dll
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\PresentationNative_cor3.dll
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\vcruntime140_cor3.dll
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\wpfgfx_cor3.dll
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt.exe
