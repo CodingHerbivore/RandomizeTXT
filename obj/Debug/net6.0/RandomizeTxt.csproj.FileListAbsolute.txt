@@ -1,0 +1,5 @@
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Debug\net6.0\RandomizeTxt.csproj.AssemblyReference.cache
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Debug\net6.0\RandomizeTxt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Debug\net6.0\RandomizeTxt.AssemblyInfoInputs.cache
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Debug\net6.0\RandomizeTxt.AssemblyInfo.cs
+C:\Users\abullis\OneDrive - jmesales.com\Documents\csharp\RandomizeTxt\obj\Debug\net6.0\RandomizeTxt.csproj.CoreCompileInputs.cache
