@@ -1,12 +1,15 @@
-﻿internal class Program
+﻿using System.IO;
+using System.Windows.Forms;
+
+internal class Program
 {
     [STAThread]
     static void Main(string[] args)
     {
-        Console.WriteLine("Choose the TXT file of comma-separated items");
+        string fileContent = string.Empty;
+        string newString = string.Empty;
 
-        var fileContent = string.Empty;
-        var filePath = string.Empty;
+        Console.WriteLine("Choose the TXT file of comma-separated items");
 
         using (OpenFileDialog openFileDialog = new OpenFileDialog())
         {
@@ -18,9 +21,6 @@
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                //Get the path of specified file
-                filePath = openFileDialog.FileName;
-
                 //Read the contents of the file into a stream
                 var fileStream = openFileDialog.OpenFile();
 
@@ -35,7 +35,6 @@
         string[] contentArray = fileContent.Split(",");
         // And will be sorted into another array in a different order
         string[] newList = new string[contentArray.Length];
-        string newString = "";
 
         for (int i = 0; i < contentArray.Length; i++)
         {
@@ -52,16 +51,37 @@
             newList[place] = contentArray[i];
         }
 
+        // Turn our new array into a comma-separated string
         for (int i = 0; i < newList.Length; i++)
         {
             newString += newList[i] + ",";
         }
 
-        // Ideally, and I should do this if I need this tool more
-        // than just this one time, I would make a new TXT file and
-        // write this in there. But, since I only need to do this
-        // this one time, I'll just copy the output from the VS
-        // debug console.
-        Console.WriteLine(newString);
+        // Now let's save to a new file
+        Stream saveStream;
+        SaveFileDialog saveFileDialog = new SaveFileDialog();
+        {
+            saveFileDialog.InitialDirectory = "%USERPROFILE%";
+            saveFileDialog.RestoreDirectory = true;
+            saveFileDialog.Title = "Save the new TXT file...";
+            saveFileDialog.DefaultExt = "txt";
+            saveFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                if((saveStream = saveFileDialog.OpenFile()) != null)
+                {
+                    using (StreamWriter sw = new StreamWriter(saveStream))
+                    {
+                        sw.WriteLine(newString);
+                    }
+                    saveStream.Close();
+                }
+
+                Console.WriteLine(saveFileDialog.FileName + " saved successfully.");
+                Console.WriteLine("Press any key to quit.");
+                Console.ReadKey();
+            }
+        }
     }
 }
